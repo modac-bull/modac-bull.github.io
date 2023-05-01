@@ -27,7 +27,7 @@ repository               : https://github.com/modac-bull/modac-bull.github.io.gi
 teaser                   : /assets/images/teaser-fallback.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "modac-blog" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs               : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "이지훈"
   avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "사용자와 상호작용하는 프론트엔드, UX디자인, 사용성 공학에 관심이 많습니다. <br> 사용성을 고려할 줄 아는 개발을 지향합니다. 사용자가 조금이라도 더 개선된 사용성을 느낄 수 있는 결과물을 만들어내는 프론트엔드 개발자가 되고 싶습니다."
+  bio              : "사용자와 상호작용하는 프론트엔드, UX디자인, 사용성 공학에 관심이 많습니다. <br> 사용자가 조금이라도 더 개선된 사용성을 느낄 수 있는 결과물을 만들어내는 프론트엔드 개발을 하고 싶습니다."
   location         : "서울"
   email            :
   links:
@@ -293,3 +293,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope :
+      path : "_pages"
+      type: pages
+    values: 
+      layout : single
+      author_profile: true
