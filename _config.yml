@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-G78XPH9LJS
     anonymize_ip         : # true, false (default)
 
 
@@ -108,7 +108,7 @@ author:
   avatar           : /assets/images/logo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사용자와 상호작용하는 프론트엔드, UX디자인, 사용성 공학에 관심이 많습니다. <br> 사용자가 조금이라도 더 개선된 사용성을 느낄 수 있는 결과물을 만들어내는 프론트엔드 개발을 하고 싶습니다."
   location         : "서울"
-  email            :
+  email            : "ljhljh211@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
