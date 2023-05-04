@@ -225,13 +225,13 @@ tsconfig.json에 다음 옵션값도 추가
 
 ## 7. ESLint 설정 (선택 사항)
 
-ESLint를 사용하려면 다음 명령어로 필요한 패키지를 설치하고 설정합니다.
+ESLint를 사용하려면 다음 명령어로 필요한 패키지를 설치하고 설정한다.
 
 ```bash
 npm install -D eslint eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
-프로젝트 루트에 `.eslintrc.json` 파일을 생성하고 아래 내용을 추가합니다.
+프로젝트 루트에 `.eslintrc.json` 파일을 생성하고 아래 내용을 추가.
 
 ```json
 {
