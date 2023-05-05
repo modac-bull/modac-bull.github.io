@@ -3,10 +3,10 @@ title: "Twin + Vite + Emotion + TypeScript로 모던 웹 프로젝트 구축하�
 exerpt: "이 글에서는 Twin, Vite, Emotion, 그리고 TypeScript를 함께 사용하여 모던 웹 프로젝트를 구성하는 방법, 이러한 구성의 특징, 그리고 이 구성을 선택한 이유에 대해 알아봅니다."
 last_modified_at: 2023-05-03T22:02:06
 header:
-  teaser: "assets/images/teaser.png"
-  overlay_image: /assets/images/teaser-fallback.png
-  overlay_filter: 0.05 # same as adding an opacity of 0.5 to a black background
-  caption: ""
+  teaser: "assets/images/teaser-image1.png"
+  overlay_image: /assets/images/teaser-full-width.png
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  caption: "instagram. @modacbull"
 categories:
   - settings
 tags:
