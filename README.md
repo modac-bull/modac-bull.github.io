@@ -13,5 +13,9 @@ gem install bundler
 bundle
 jekyll serve
 
+// or
+
+bundle exec jekyll serve
+
 // http://127.0.0.1:4000 에서 확인 가능
 ```

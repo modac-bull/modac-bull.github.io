@@ -8,8 +8,8 @@ main:
   #  url: /year-archive/
   #- title: "Sample Collections"
   #  url: /collection-archive/
-  # - title: "Sitemap"
-  #  url: /sitemap/
+  - title: "Tags"
+    url: /tags/
   - title: "Categories"
     url: /categories
   - title: "Year Archive"
