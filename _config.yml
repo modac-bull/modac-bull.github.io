@@ -20,7 +20,7 @@ title                    : "modac-blog"
 title_separator          : "&#124;"
 subtitle                 : "v1.0.0" # site tagline that appears below site title in masthead
 name                     : "이지훈"
-description              : "공감과 소통으로 사용성을 고려하는 프론트엔드 개발을 하고 싶습니다."
+description              : "modac-blog - 이지훈 | 프론트엔드 개발자 - 공감과 소통으로 사용성을 고려하는 프론트엔드 개발을 하고 싶습니다."
 url                      : https://modac-bull.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : https://github.com/modac-bull/modac-bull.github.io.git # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
