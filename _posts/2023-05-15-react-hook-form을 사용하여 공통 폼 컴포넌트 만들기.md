@@ -49,12 +49,9 @@ comments: false
 
 root 디렉토리에서 터미널 명령어 실행하여 react-hook-form 라이브러리를 설치한다.
 
-
-
 ```bash
 npm install react-hook-form
 ```
-
 
 # 간단한 사용 방법 소개 - useForm 훅
 
@@ -171,7 +168,7 @@ Input 태그를 기준으로 소개한다. Textarea는 과정이 비슷하기에
 
 ### Input - 단일 폼 태그 컴포넌트
 
-```jsx
+```js
 // 코드 주석
 const Input = forwardRef(
   ({ id, name, label, type, placeholder, ...props }, ref) => {
@@ -202,7 +199,7 @@ useForm 훅을 사용하기 위해 register 하는 단계에서 필요한 속성
 
 InputForm.js - molecules (Input + error)
 
-```jsx
+```javascript
 export default function InputForm({
   name,
   register,
@@ -242,7 +239,7 @@ Input 태그에 useForm 훅에 필요한 props를 전달받아 Input 태그에 �
 
 예시 페이지 컴포넌트에서 InputForm 컴포넌트를 사용하는 방법은 다음과 같다.
 
-```jsx
+```js
 import { useForm } from "react-hook-form";
 
 import tw, { styled, css, theme } from "twin.macro";
@@ -277,7 +274,7 @@ export default function FormExamplePage() {
         type="text"
         placeholder="인풋1 - 내용을 입력해주세요."
         register={register}
-        rules={{ required: "필수 입력입니다" }}
+        rules={% raw %}{{ required: "필수 입력입니다" }}{% endraw %}
         // 필수 입력일 경우 rules객체 props전달
         errors={errors} // 에러 메세지 사용하기 위해 errors props전달
       />
@@ -290,11 +287,11 @@ export default function FormExamplePage() {
         size="default" // 너비 400px로 고정할 경우 size="default" props전달
         placeholder="인풋2 - 내용을 입력해주세요."
         register={register}
-        rules={{
+        rules={% raw %}{{
           required: "You must enter your email.",
           pattern: emailPattern,
           // 이메일 패턴 사용 예시
-        }}
+        }}{% endraw %}
         errors={errors}
       />
 
@@ -308,9 +305,9 @@ export default function FormExamplePage() {
 
 # 결론
 
-아토믹 디자인 시스템 개념을 토대로 react-hook-form 라이브러리를 활용하여 폼 태그를 공통 컴포넌트로 개발해보았다. react-hook-form 라이브러리는 초기 학습 비용이 다소 있지만 그만큼 익숙해지면 리액트에서 폼 관리를 유용하게 할 수 있다. 이번 기회에 react-hook-form 라이브러리의 사용법을 학습할 수 있어 좋은 기회였다. 
+아토믹 디자인 시스템 개념을 토대로 react-hook-form 라이브러리를 활용하여 폼 태그를 공통 컴포넌트로 개발해보았다. react-hook-form 라이브러리는 초기 학습 비용이 다소 있지만 그만큼 익숙해지면 리액트에서 폼 관리를 유용하게 할 수 있다. 이번 기회에 react-hook-form 라이브러리의 사용법을 학습할 수 있어 좋은 기회였다.
 
-공통 폼 컴포넌트를 개발하면서 '과연 이 방향이 맞을까?' 라는 생각이 많이 들었다. 조금 더 세련되고 효율적으로 구조를 설계했으면 하는 아쉬움이 남았다. 
+공통 폼 컴포넌트를 개발하면서 '과연 이 방향이 맞을까?' 라는 생각이 많이 들었다. 조금 더 세련되고 효율적으로 구조를 설계했으면 하는 아쉬움이 남았다.
 
 공통 폼 컴포넌트를 개발한 이후 초창기 시점에는 팀원들과 개발 과정을 공유하고 사용 방법을 공유하는 시간을 필요로 했다. 이후로는 공통 폼 컴포넌트를 활용하는 측면에서는 효율성이 어느정도 향상되었다고 생각한다.
 
