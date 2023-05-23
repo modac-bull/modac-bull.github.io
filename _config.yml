@@ -21,9 +21,9 @@ title_separator          : "&#124;"
 subtitle                 : "v1.0.0" # site tagline that appears below site title in masthead
 name                     : "이지훈"
 description              : "modac-blog - 이지훈 | 프론트엔드 개발자 - 공감과 소통으로 사용성을 고려하는 프론트엔드 개발을 하고 싶습니다."
-url                      : https://modac-bull.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://modac-bull.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/modac-bull/modac-bull.github.io.git # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : modac-bull/modac-bull.github.io.git # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/teaser-v1.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo_v1.svg # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "modac-blog" # overrides the website title displayed in the masthead, use " " for no title
