@@ -1,11 +1,29 @@
 ---
-title: "Post: Notice"
+title: "포스팅 제목"
+exerpt: "포스팅 글에 대한 간략 설명."
+last_modified_at: 2023-09-20T20:04:16
+header:
+  teaser: "assets/images/teaser-image1.png"
+  overlay_image: /assets/images/teaser-full-width.png
+  overlay_filter: 0.1 # same as adding an opacity of 0.5 to a black background
+  caption: "instagram. @modacbull"
 categories:
-  - Post Formats
+  - settings
 tags:
-  - Post Formats
-  - notice
+  - next.js
+  - emotion
+  - typescript
+  - twin.macro
+toc: true
+toc_sticky: true
+share: false
+related: false
+comments: false
 ---
+
+
+템플릿 테스팅 입니다.
+
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
